@@ -1,0 +1,23 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+.env/
+
+# Ignore Jupyter notebooks and raw data
+*.ipynb
+*.csv
+*.xlsx
+
+# Ignore git history
+.git/
+.gitignore
+
+# ONLY include the required artifact, ignore other joblib files you might have made
+# (If you have other models, you might need to adjust this)
+*.joblib
+!sba_pipeline.joblib

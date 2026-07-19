@@ -1,0 +1,23 @@
+# Ignore virtual environments
+venv/
+env/
+.env/
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore raw data files (DO NOT push datasets to GitHub)
+*.csv
+*.xlsx
+*.parquet
+*.ipynb
+
+# Ignore OS files
+.DS_Store
+
+# DO NOT ignore the model artifact (we need this for Docker)
+# But ignore other joblib/pickle files you might have tested
+*.pkl
+# !sba_pipeline.joblib  <- We actually want this tracked
