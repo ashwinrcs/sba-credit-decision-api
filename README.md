@@ -8,7 +8,7 @@
 
 An end-to-end Machine Learning Operations (MLOps) pipeline for real-time SME credit risk underwriting. This system predicts the probability of default for US Small Business Administration (SBA) 7(a) commercial loans.
 
-🔴 **Live API Endpoint (Swagger UI):** [https://sba-decision-api-xyz123-el.a.run.app/docs](https://sba-decision-api-xyz123-el.a.run.app/docs) 
+🔴 **Live API Endpoint (Swagger UI):** [https://sba-decision-api-oh4e6zcfyq-el.a.run.app/docs](https://sba-decision-api-oh4e6zcfyq-el.a.run.app/docs) 
 
 ---
 
