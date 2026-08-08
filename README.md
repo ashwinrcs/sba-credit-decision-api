@@ -42,7 +42,7 @@ You can send a POST request to the live Cloud Run endpoint using `cURL` or Pytho
 
 ```bash
 curl -X 'POST' \
-  '[https://sba-decision-api-xyz123-el.a.run.app/predict](https://sba-decision-api-xyz123-el.a.run.app/predict)' \
+  '[https://sba-decision-api-oh4e6zcfyq-el.a.run.app/predict](https://sba-decision-api-oh4e6zcfyq-el.a.run.app/predict)' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
